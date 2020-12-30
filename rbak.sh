@@ -114,11 +114,11 @@ halt_services="NetworkManager.service httpd.service"
 # Recommended setting: true
 # When set to false, rbak.sh will start up quicker, but you may miss write
 # accesses from newly installed programs and serives.
-use_inotify_watch=false
+use_inotify_watch=true
 
 # VERIFY THAT YOU HAVE READ THIS
 # Set the following to  true
-script_is_configured=true
+script_is_configured=not_yet
 
 
 ###############################################################################
